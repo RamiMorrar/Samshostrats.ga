@@ -1,0 +1,226 @@
+﻿<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="site.css" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,900,700,100' rel='stylesheet' type='text/css'>
+    
+</head>
+
+<body>
+    <img class='fade-in' src="Logo.png" width="25%" />
+
+
+    <nav>
+
+        <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Mechanics</a></li>
+            <li>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Characters<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="Basara.html">Basara</a></li>
+                    <li><a href="Charlotte.html">Charlotte</a></li>
+                    <li><a href="Darli.html">Darli</a></li>
+                    <li><a href="Earthquake.html">Earthquake</a></li>
+                    <li><a href="Galford.html">Galford</a></li>
+                    <li><a href="Genjuro.html">Genjuro</a></li>
+                    <li><a href="Hanzo.html">Hanzo</a></li>
+                    <li><a href="Haohmaru.html">Haohmaru</a></li>
+                    <li><a href="Jubei.html">Jubei</a></li>
+                    <li><a href="Kazama.html">Kazama</a></li>
+                    <li><a href="Kyoshiro.html">Kyoshiro</a></li>
+                    <li><a href="Nakoruru.html">Nakoruru</a></li>
+                    <li><a href="#Rimururu">Rimururu</a></li>
+                    <li><a href="Shiki.html">Shiki</a></li>
+                    <li><a href="TamTam.html">Tam Tam</a></li>
+                    <li><a href="Ukyo.html">Ukyo</a></li>
+                    <li><a href="Wanfu.html">Wan-Fu</a></li>
+                    <li><a href="WuRuixiang.html">WuRuixiang</a></li>
+                    <li><a href="Yashamaru.html">Yashamaru</a></li>
+                    <li><a href="Yoshitora.html">Yoshitora</a></li>
+                </ul>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </nav>
+
+    <br />
+    <br />
+
+    <a name="TopPage"></a>
+    <p>
+        <strong><font size="24"> Overview:</font></strong><br />
+        Samurai Shodown is a 1v1 2.5D weapons-based fighting game with a heavy emphasis on neutral and defensive play.
+        The goal is to deplete the opponent's life bar and to claim victory, like any traditional fighting game. How you do that is based entirely on how good you are at capitalizing off your opponent's mistakes and making every punish hurt. What separates Samurai Shodown
+        from other games is its emphasis on short, but damaging combos, and heavy neutral game. It's a very simple yet very awarding sense of combat, with tons of scenarios where reads on opponents and mindgames take precedence over everything else.
+        <br />
+        <br />
+
+
+
+        In this section is a break down of all the game's mechanics, along with detailed descriptions of mechanics such as start-up, blockstun reduction, and other things.
+    </p>
+
+    <p>
+        To get started, here's a brief beginner tutorial guide on how the game works, according to top pro player in multiple fighting games, Justin Wong.<br /> <br />
+
+
+        <iframe width="750" height="420" src="https://www.youtube.com/embed/_brwKFkHof8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p> <br />
+
+    <p> Here is a 3-hour long, fully detailed video by UltraChen covering all the aspects of the game, with timestamps going into detail for each and every mechanic. </p>
+    <iframe width="750" height="420" src="https://www.youtube.com/embed/9ewOLjyBDaQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br />
+    <br />
+    <p>For people who like reading a quick section more than watching videos, below is a description of all the mechanics and how they work.</p>
+
+    <strong><font size="24"> Mechanics: </font></strong><br />
+    Before beginning any further, it's important to note that we shall use Numpad Notation when it comes to reading annotations. If you aren't familiar with numpad notation, here's a simple diagram showing how it works.<br />
+    <img src="Notation.jpg"> <br /> <br />
+
+    <div><font size="20" face="strong">Mechanics:</font> </div>
+    <ul>
+        <li class="toclevel-1 tocsection-1"><a href="#Movement"><span class="tocnumber">1</span> <span class="toctext">Movement</span></a></li>
+        <li class="toclevel-1 tocsection-2"><a href="#Attacks"><span class="tocnumber">2</span> <span class="toctext">Attacks</span></a></li>
+        <li class="toclevel-1 tocsection-3"><a href="#Frame_Data"><span class="tocnumber">3</span> <span class="toctext">Frame Data</span></a></li>
+        <li class="toclevel-1 tocsection-4"><a href="#System_Mechanics"><span class="tocnumber">4</span> <span class="toctext">System Mechanics</span></a>
+    </ul>
+    <ul>
+        <li class="toclevel-2 tocsection-5"><a href="#Just_Defense"><span class="tocnumber">4.1</span> <span class="toctext">Just Defense</span></a></li>
+        <li class="toclevel-2 tocsection-6"><a href="#Rage_Gauge"><span class="tocnumber">4.2</span> <span class="toctext">Rage Explosion</span></a></li>
+        <li class="toclevel-2 tocsection-8"><a href="#Dodge"><span class="tocnumber">4.3</span> <span class="toctext">Dodge</span></a></li>
+        <li class="toclevel-2 tocsection-9"><a href="#Counters"><span class="tocnumber">4.4</span> <span class="toctext">Sparking Blast</span></a></li>
+        <li class="toclevel-2 tocsection-10"><a href="#Whiff_Cancel"><span class="tocnumber">4.5</span> <span class="toctext">Whiff Cancels</span></a></li>
+        <li class="toclevel-2 tocsection-11"><a href="#Sword_Clash"><span class="tocnumber">4.6</span> <span class="toctext">Sword Clash</span></a></li>
+        <li class="toclevel-2 tocsection-13"><a href="#Weapon_Flipping_Technique"><span class="tocnumber">4.7</span> <span class="toctext">Weapon Flipping Technique/Weapon Drop</span></a></li>
+        <li class="toclevel-2 tocsection-14"><a href="#Wakeup"><span class="tocnumber">4.8</span> <span class="toctext">Wakeup</span></a></li>
+    </ul>
+    <br />
+    <br />
+    <br />
+    <strong><a name="Movement"> <font size="20"> Movement </font></a></strong>
+    <p>
+        Movement in Samurai Shodown is standard for a 2D fighting game. You can move forward or backward, jump up, and crouch. One thing to note about jumping is something called "Combo Jump." Normally, jumps have landing recovery and can be punished.  Combo Jump allows a player to
+        jump immediately again afterwards, reducing the recovery and being able to mix-up your opponent. Everybody also has a universal run in this game, by hitting forward, forward fast (numpad notation would be 66). The only difference betweeen each character in movements are speed and certain moves that give
+        special properties, like moves that are able to hop over projectiles or have armor.
+    </p>
+
+
+    <strong><a name="Attacks"><font size="20"> Attacks </font></a></strong>
+    <p>
+        The game has 4 main buttons: <br />
+        <strong>
+            Light Slash<br />
+            Medium Slash<br />
+            Heavy Slash<br />
+            Kick<br />
+        </strong>
+        Light slash attacks are usually fast, quick attacks that are safe to throw out, but have short range.<br />
+        Medium slash attacks have more range and do more damage than heavy attacks, but are slower than light slash attacks, making them easy to punish on whiff and semi-punishable on block. <br />
+        Heavy Slash attacks are the most damaging and far ranged attacks in the entire game, however they are slow and are very punishable on whiff and block.
+        Kick attacks are standard kick moves that don't do a whole lot of damage, but are good poking tools that can confirm from a far into combos.<br /> <br />
+
+        In order to make notation shorter, each attack will be given a single letter in order to make it easier to read. In short: <br /> <br />
+
+        <strong>
+            A = Light Slash    B = Medium Slash <br />
+            C = Heavy Slash    D = Kick
+        </strong>
+        <br />
+        As for notations like jumps and unarmed moves, we'll use u. for unarmed moves and j. for jump attacks.
+        <br />
+        There are also universal attacks in the form of Dash Attacks and, Guard Breaks, and Surprise Attacks <br />
+
+        Dash attacks are done by pressing 66 + any other button. Each dash attack is varied by character. <br />
+        <br />
+        <div><strong>Guard Breaks</strong> are essentially the throws of the game. However, Samurai Shodown's Guard Breaks are different than most other throws in fighting games. Instead of a standard attack that does some damage, Guard Break lets characters follow-up immediately afterwards with their own attacks, as seen here </div> <br />
+
+        <blockquote class="twitter-tweet">
+    <p lang="en" dir="ltr">Turns out Darli can microwalk 2m to get a better combo off forward grab. <a href="https://twitter.com/hashtag/SS_DA?src=hash&amp;ref_src=twsrc%5Etfw">#SS_DA</a> <a href="https://twitter.com/hashtag/SamuraiShowdown?src=hash&amp;ref_src=twsrc%5Etfw">#SamuraiShowdown</a> <a href="https://t.co/VbucMhGNMV">pic.twitter.com/VbucMhGNMV</a></p>&mdash; Mike Muscles Murphy (@MusclesMurphy) <a href="https://twitter.com/MusclesMurphy/status/1144050685119365120?ref_src=twsrc%5Etfw">June 27, 2019</a></blockquote>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <br />
+    <p>
+        <strong>Surprise Attacks</strong> are fast overhead attacks that net a small bit of damage if the opponent is crouching blocking. The start-up of this attack is different for each character, especially unarmed.
+    </p>
+    <p> Last, but certainly not least, are <strong>Super Special Moves</strong>, or to shorten it, Supers. Supers are the most damaging moves in the game. You can only perform them once however in a match, so make sure it hits. They also have a universal input:<strong> 641236 + CD </strong> </p>
+
+    <div><a name="Frame_Data"><strong><font size="20">Frame Data</font></strong></a></div>
+    <p> If you are new to competitve fighting games, here is some a great video explaining how it works by lordofultima. The game shown is Street Fighter V, but it gives a good universal understanding on how frame data works</p>
+    <iframe width="750" height="420" src="https://www.youtube.com/embed/8gtklnzge00" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <p> As for specific universal start-ups on certain moves, that has yet to be thoroughly researched and more information will appear as time goes on. </p><br />
+
+    <strong><font size="24"><a name="System_Mechanics"> System Mechanics</a></font></strong>
+    <p> It's time for the real meat and potatoes on what makes Samurai Shodown unique. Samurai Shodown has many mechanics that rely on good reads and smart offensive/defensive play. Using these mechanics right will net you wins if used correctly. If not used properly, you will be punished dearly for it. </p>
+    <div><font size="20"><strong><a name="Just_Defense"> Just Defense</a></strong></font></div>
+    <p>By blocking just before the opponent hits, you can negate chip damage done to you and can follow-up with a Stance Break by pressing A+B, a move that pushes the opponent away from you. This is useful for getting out of the corner, as well as resetting the situation to go back to neutral. Just Defense also fills up the Rage Gauge. </p>
+    <br />
+    <br />
+    <strong><font size="20"><a name="Rage_Gauge">Rage Gauge</a></font></strong>
+    <p>
+        The Rage Gauge is a meter at the bottom that fills up everytime you take a hit or successfully just defend. When you fill the rage gauge all the way, you'll be in a state called Max Rage. Max Rage is a state where all your attacks are given an extra boost in power. Note, however, that Max Rage depletes after a while. Max Rage depletion is also varied by character. <br />
+        It's also important to point out Rage Explosion. By pressing A+B+C at the same time when in Max Rage and armed, your character goes into a state called "Rage Explosion." Rage Explosion can also be triggered when taking a hit, making it a good combo breaker to get you out of a bind. You can only trigger Rage Explosion once per match and has the following benefits: <br />
+        <br />
+        1. Attack Power greatly increased<br />
+        2. Weapon Flipping Technique and Lightning Blade Techniques are available<br />
+        3. The timer stops<br />
+        4. When Rage Explosion ends, the the Rage Gauge is back to 0.<br />
+        <br />
+        <strong>Lightning Blade</strong>(A+B+C) is a fast and powerful move only available in Rage Explosion that does a lot of damage depending on how filled your rage gauge is when in Rage Explosion State. When you do Lightning Blade however, whether you hit it or not, will end the rage explosion and get rid of your rage gauge the the rest of the round.<br />
+        <br />
+        <strong><font size="20"><a name="Dodge">Dodge</a></font></strong>
+
+        <br />
+    <p>
+        Dodge is done by doing A+B when in neutral. What this does is make you invincible for a short period of time. You can dodge all throws and all attacks. It's a small window of invincibility however, so be careful when doing it.
+        Dodging is good for baiting out opponents into doing a usually safe move, and punishing them greatly for abusing their moveset. It's a good way to keep your opponent honest and to not autopilot.
+    </p>
+    <br />
+    <br />
+    <strong><font size="20"><a name="Counters">Counters</a></font></strong><br />
+    <br />
+    <p>
+        <strong>Counters</strong> are done by performing 236 + AB against an armed opponent. If done correctly, the opponent will become disarmed, getting rid of access to most special moves and high damaging attacks. If a counter whiffs however, that can mean big punishment. It is also not frame 1 active either, so a good read is necessary. <br />
+        When unarmed, there is a variant to the counter called <strong>Blade Catch.</strong> Blade Catch disarms the opponent AND kicks the opponent across the screen, leaving both characters at neutral.
+    </p>
+    <br />
+    <br />
+    <strong><font size="20"><a name="Whiff_Cancel">Whiff Cancel</a></font></strong><br />
+    <p> Usually when a move whiffs, there are recovery frames that prevent a character from acting out of it, allowing the opponent character to punish. In Samurai Shodown however, this is different. <strong> Whiff cancelling</strong> lets characters cancel their normals into specials, even if they whiff. Only certain normals are whiff cancellable, like Haohmaru's 5B or Yoshitora's 6K. Knowing this, you can do some crazy set-ups as seen here with Yoshitora.<br /> </p>
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Quick Charlotte Tip: 6D is special cancelable, allowing her to quickly whiff cancel into Splash Fount.<br><br>Splash Fount only needs 3 slash inputs to come out. The last input dictates which version of SF comes out.<br><br>(Light/Medium/Heavy = 6/8/10 hits)<a href="https://twitter.com/hashtag/EmbraceDeath?src=hash&amp;ref_src=twsrc%5Etfw">#EmbraceDeath</a> <a href="https://twitter.com/samuraishodown?ref_src=twsrc%5Etfw">@SamuraiShodown</a> <a href="https://t.co/v1Vo3BjeJi">pic.twitter.com/v1Vo3BjeJi</a></p>&mdash; Geoff @ AX (@GeoffLife) <a href="https://twitter.com/GeoffLife/status/1142729511580028928?ref_src=twsrc%5Etfw">June 23, 2019</a></blockquote>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <br />
+    <strong> <font size="20"> <a name="Sword_Clash"> Sword Clash</a></font></strong><br />
+    <br />
+    <p>
+        Sword Clash is when both characters perform a weapon attack on the same frame. This leads to a power struggle. In order to win, one must mash the button faster in order to do so.<br />
+        Sword Clashes only happen once a round, when at least 16 seconds are on the clock, and both characters have at least 160 health. Sword clashing is not dependent on the strength of the button, but on the same frame. For instance, if Haohmaru's Standing Light Slash and Genjuro's Standing Heavy Slash come out on the same frame, they would both clash. If both players mash around the same time, both characters are put into a deflected. If one player mashes faster than the other, the slower character will have their weapon disarmed.
+    </p>
+    <br />
+    <strong> <font size="20"><a name="Weapon_Flipping_Technique"> Weapon Flipping/Weapon Drop</a></font></strong><br />
+    <p> Weapon Flipping Techniques are damaging moves that disarm the opponent. It is also possible to combo into some of them as well. </p> <br />
+    <br />
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">This mIght be a deal breaker with her <a href="https://twitter.com/hashtag/SS_DA?src=hash&amp;ref_src=twsrc%5Etfw">#SS_DA</a> <a href="https://twitter.com/hashtag/SamuraiShodown?src=hash&amp;ref_src=twsrc%5Etfw">#SamuraiShodown</a> <a href="https://twitter.com/hashtag/EmbraceDeath?src=hash&amp;ref_src=twsrc%5Etfw">#EmbraceDeath</a> <a href="https://twitter.com/hashtag/PS4share?src=hash&amp;ref_src=twsrc%5Etfw">#PS4share</a><a href="https://t.co/FuJcNRnPf9">https://t.co/FuJcNRnPf9</a> <a href="https://t.co/AEK6UeFfyo">pic.twitter.com/AEK6UeFfyo</a></p>&mdash; Flying High (@Zerms4) <a href="https://twitter.com/Zerms4/status/1144267999584706567?ref_src=twsrc%5Etfw">June 27, 2019</a></blockquote>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <br /> <p> Also a mechanic in this game is <strong>Weapon Drop </strong> by inputting <strong>2+BD.</strong>This also lets you pick your weapon back up if you're disarmed.<br /> Manually disarming can give certain characters different specials or properties on their normals, like Darli for example.</p><br />
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is going to teach me not to challenge an unarmed Darli <a href="https://twitter.com/hashtag/PS4share?src=hash&amp;ref_src=twsrc%5Etfw">#PS4share</a> <a href="https://twitter.com/hashtag/SamuraiShodown?src=hash&amp;ref_src=twsrc%5Etfw">#SamuraiShodown</a> <a href="https://twitter.com/hashtag/EmbraceDeath?src=hash&amp;ref_src=twsrc%5Etfw">#EmbraceDeath</a> <a href="https://t.co/4i6kBaeOIy">pic.twitter.com/4i6kBaeOIy</a></p>&mdash; Pepe Silvia (@ChefRaptor) <a href="https://twitter.com/ChefRaptor/status/1142948875872985088?ref_src=twsrc%5Etfw">June 24, 2019</a></blockquote>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <br /> <br />
+    <strong> <font size="20"> <a name="Wakeup"> Wakeup </a></font></strong><br />
+
+    <p><strong>Wakeup</strong> is different in this game than other games. You have your standard wakeup, which lets you get up regularly, but is slow. You also have <strong>Mobile Wakeup,</strong> which lets characters do front and back rolls. Front rolls are the fastest option and are great for getting out of the corner, but can lead to potential mix-ups or setups that could have been avoided had it been a different wake-up option.</p>
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Genjuro anti front roll unblockable setup <a href="https://twitter.com/hashtag/SamuraiShodown?src=hash&amp;ref_src=twsrc%5Etfw">#SamuraiShodown</a> <a href="https://twitter.com/hashtag/SS_GE?src=hash&amp;ref_src=twsrc%5Etfw">#SS_GE</a> <a href="https://t.co/6bz9nhMgRx">pic.twitter.com/6bz9nhMgRx</a></p>&mdash; frionel (@frionel26) <a href="https://twitter.com/frionel26/status/1144044713672151040?ref_src=twsrc%5Etfw">June 27, 2019</a></blockquote>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <br />
+    <br />
+    <p>Back rolls are slower than and regular wake-up,  forward rolls, but lets you keep some distance between you and your opponent. </p>
+    <br />
+    <br />
+
+    <a href="#TopPage"><h1>Back to top of page</h1></a>
+
+</body>
+</html>
